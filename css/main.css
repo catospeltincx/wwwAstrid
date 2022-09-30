@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: 'Standard';
+
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Standard;
+  src: url(/src/fonts/standard-book-webfont.woff);
+}
+
+@font-face {
+  font-family: TGL-0-17;
+  src: url(/src/fonts/TGL-0-17.ttf);
+}
+
+@font-face {
+  font-family: CMU-brood;
+  src: url(/src/fonts/brood-brood.ttf);
+}
+
+@font-face {
+  font-family: CMU-italic;
+  src: url(/src/fonts/brood-italic.ttf);
+}
+
+/*** HEADER ***/
+header {
+  background-color: black;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 15px 25px 25px 25px;
+}
+
+/* Title */
+.title {
+  font-family: 'Standard';
+  height: fit-content;
+  font-size: 24px;
+  color: rgb(255, 0, 212);
+  word-break: keep-all;
+  width: 30vw;
+}
+
+
+/* Hamburger */
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 7px;
+  right: 15px;
+  cursor: pointer;
+  background-color: rgba(148, 137, 137, 0);
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.hamburger .closeIcon {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+.hamburger .menuIcon {
+  color: rgb(0, 150, 50);
+  font-size: 40px;
+  
+}
+
+.closeIcon {
+    display: none;
+}
+.hamburger .closeIcon {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+.hamburger .menuIcon {
+  color: rgb(0, 150, 50);
+  font-size: 40px;
+  
+}
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+  font-size: 20px;
+  display: block;
+  text-align: right;
+  position: fixed;
+  transform: translateY(-150%);
+  transition: transform 0.3s;
+  top: 0;
+  left: 0;
+  right: 50px;
+  bottom: 0;
+  z-index: 99;
+  list-style: none;
+  height: fit-content;
+}
+
+.menu a {
+  font-family: "Standard";
+  color: rgb(167, 167, 170);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline 7px rgb(167, 167, 170);
+}
+
+
+.showMenu {
+  transform: translateY(0); 
+}
+
+
+
+/* PROJECT-PAGINA */
+.year-project {
+  font-size: 15px;
+  padding: 0 0 25px 25px;
+}
+
+.title-project {
+  font-family: 'TGL-0-17';
+  text-decoration: none;
+  font-size: 27px;
+  padding: 0 0 0 25px;
+
+}
+
+.projects-index img {
+  width: 100vw;
+  height: auto;
+}
+
+.project-index{
+  padding-bottom: 50px;
+}
+
+.caption {
+  font-size: 11px;
+  padding: 13px;
+  display: block;
+  text-align: right;
+}
+
+/* ABOUT */
+.about {
+  z-index: 100;
+}
+
+/* PROJECT-PAGE */
+/* text */
+.intro {
+  padding: 0 25px 25px 25px;
+  line-height: 23px;
+}
+
+.intro p {
+  font-family: 'CMU-italic';
+  font-size: 17px;
+}
+
+.brood p {
+  padding: 0 25px 25px 25px;
+  font-size: 16px;
+  max-width: 450px;
+}
+
+.list {
+  font-size: 13px;
+  height: fit-content;
+  font-weight: bold;
+  padding: 25px 0 50px 20px;
+  max-width: 450px;
+}
+
+.list-item {
+  padding-left: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.text {
+  background-color: white;
+}
+
+.text p{
+  color: rgb(0, 0, 0);
+}
+
+/* carrousel */
+img {
+  display: block;
+  height: 60vh;
+  width: auto;
+}
+
+.main-carousel {
+  height: 60vh;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 750px) {
+  .brood-group {
+    column-count: 2;
+    width: 100vw;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .brood-group {
+    column-count: 3;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+  .brood-group {
+    column-count: 4;
+  }
+
+}
+
+
+
+

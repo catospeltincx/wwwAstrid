@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  background-color: black;
+}
+
+p {
+    margin: 0;
+    color: white;
+    font-family: 'Standard';
+}
+
+@font-face {
+  font-family: Standard;
+  src: url(/src/fonts/standard-book-webfont.woff);
+}
+
+@font-face {
+  font-family: TGL-0-17;
+  src: url(/src/fonts/TGL-0-17.ttf);
+}
+
+.title {
+    font-family: 'Standard';
+    position: fixed;
+    height: fit-content;
+    font-size: 24px;
+    color: rgb(255, 0, 212);
+    word-break: keep-all;
+    width: 30vw;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 15px 25px 15px 25px;
+}
+
+.projects {
+    padding-top: 100px;
+  }
+  
+  .project p {
+    font-family: 'TGL-0-17';
+    color: #ffffff;
+    text-shadow: 2px 0 0 rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    line-height: 55px;
+    padding: 0 30px 50px 30px ;
+    margin: auto;
+    text-align: center;
+    display: block;
+    max-width: 500px;
+
+  }
+  
+  .project a:hover {
+    text-shadow: 2px 0 0 white;
+  }
+
+  p.year {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+  }
+
+  .background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+/* Hamburger Menu */
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 7px;
+    right: 15px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger .closeIcon {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+.hamburger .menuIcon {
+  color: rgb(0, 150, 50);
+  font-size: 40px;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+  font-size: 20px;
+  display: block;
+  text-align: right;
+  position: fixed;
+  transform: translateY(-150%);
+  transition: transform 0.3s;
+  top: 0;
+  left: 0;
+  right: 50px;
+  bottom: 0;
+  z-index: 99;
+  list-style: none;
+  height: fit-content;
+}
+
+.menu a {
+  font-family: "Standard";
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+  
+  
+  
