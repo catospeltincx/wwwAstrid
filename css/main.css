@@ -202,6 +202,18 @@ color: white;
   max-width: 450px;
 }
 
+/* CONTACT-PAGE */
+.text-contact {
+  padding: 25px;
+}
+
+
+.contact-item {
+  font-family: "Standard";
+  padding-left: 10px;
+  line-height: 20px;
+}
+
 /* FOOTER */
 footer {
   display: flex;
