@@ -62,7 +62,7 @@ header {
 
 /* Hamburger */
 .hamburger {
-  position: fixed; */
+  position: fixed;
   z-index: 100;
   top: 7px;
   right: 15px;
