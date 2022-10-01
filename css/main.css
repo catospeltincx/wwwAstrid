@@ -217,6 +217,12 @@ img {
   width: auto;
 }
 
+video {
+  display: block;
+  height: 60vh;
+  width: auto;
+}
+
 .main-carousel {
   height: 60vh;
 }

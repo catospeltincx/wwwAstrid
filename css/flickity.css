@@ -136,3 +136,7 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+.carousel-img {
+  position: right;
+}
