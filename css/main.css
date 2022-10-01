@@ -39,6 +39,7 @@ a {
 /*** HEADER ***/
 header {
   background-color: black;
+  height: 140px;
 }
 
 .wrap {
@@ -145,7 +146,7 @@ header {
   font-family: 'TGL-0-17';
   text-decoration: none;
   font-size: 27px;
-  padding: 0 0 0 25px;
+  padding: 25px 0 0 25px;
 
 }
 
@@ -188,12 +189,19 @@ header {
   max-width: 450px;
 }
 
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
 .list {
   font-size: 13px;
   height: fit-content;
   font-weight: bold;
   padding: 25px 0 50px 20px;
   max-width: 450px;
+  bottom: 0;
 }
 
 .list-item {
@@ -202,13 +210,17 @@ header {
   line-height: 20px;
 }
 
-.text {
-  background-color: white;
+.next-project {
+  font-family: 'Standard';
+  margin: 0 50px 50px 20px;
+  left: 0;
 }
 
-.text p{
-  color: rgb(0, 0, 0);
+.next-project a {
+  text-decoration: none;
+  color: black;
 }
+
 
 /* carrousel */
 img {
@@ -238,6 +250,18 @@ video {
   .brood-group {
     column-count: 2;
     width: 100vw;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .next-project {
+    font-family: 'Standard';
+    margin: 0 50px 50px auto;
+    bottom: 0;
+    right: 0;
   }
 
 }
