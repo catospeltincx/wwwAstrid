@@ -45,7 +45,6 @@ header {
 .wrap {
   display: flex;
   flex-direction: row;
-  width: 100%;
   padding: 15px 25px 25px 25px;
 }
 
@@ -63,10 +62,11 @@ header {
 
 /* Hamburger */
 .hamburger {
-  position: fixed;
+  position: fixed; */
   z-index: 100;
   top: 7px;
   right: 15px;
+  display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
   border: none;
@@ -202,17 +202,42 @@ color: white;
   max-width: 450px;
 }
 
-/* CONTACT-PAGE */
+/* ------------- CONTACT-PAGE ------------- */
 .text-contact {
   padding: 25px;
 }
-
 
 .contact-item {
   font-family: "Standard";
   padding-left: 10px;
   line-height: 20px;
 }
+
+/* --------- PAST/UPCOMING-PAGEs ----------- */
+.places-wrap {
+  padding: 25px;
+
+}
+
+.places-item {
+padding-bottom: 25px;
+}
+
+.places-piece {
+  font-family: "TGL-0-17";
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.places-date {
+  font-weight: bold;
+}
+
+.places-date, .places-place, .places-city, .places-country {
+padding-right: 15px;
+}
+
+
 
 /* FOOTER */
 footer {
