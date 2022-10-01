@@ -1,62 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/flickity.css" />
+    <title>Astrid De Haes</title>
   </head>
+  <header>
+    <div class="wrap">
+      <a href="index.html"
+        ><p class="title">Astrid De</p>
+        <p class="title">Haes</p></a
+      >
+      <ul class="menu">
+        <li><a href="contact.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="past.html">Past</a></li>
+        <li><a href="upcoming.html">Upcoming</a></li>
+      </ul>
+
+      <button class="hamburger">
+        <p class="menuIcon">•</p>
+        <p class="closeIcon">•</p>
+      </button>
+    </div>
+  </header>
+
   <body>
-    <ul class="menu">
-      <li class="aboutTitle"><a href="about.html">About</a></li>
-      <li class="pastTitle"><a href="past.html">Past</a></li>
-      <li class="upcomingTitle"><a href="upcoming.html">Upcoming</a></li>
-    </ul>
+    <div
+      class="main-carousel"
+      data-flickity='{ "cellAlign": "left", "contain": true }'
+    >
+      <div class="carousel-img"><img src="src/golden-hour_1.jpg" alt="" /></div>
+      <div class="carousel-img"><img src="src/golden-hour_2.jpg" alt="" /></div>
+      <div class="carousel-img"><img src="src/golden-hour_3.jpg" alt="" /></div>
+      <div class="carousel-img"><img src="src/golden-hour_4.jpg" alt="" /></div>
+      <div class="carousel-img"><img src="src/golden-hour_5.jpg" alt="" /></div>
+    </div>
+    <div class="caption"><p>© Pommelien Koolen</p></div>
 
-    <div class="about">
-      <p class="brood">
-        Astrid De Haes (Belgium, 1996) is living and working in Antwerp. De Haes
-        started dancing at the age of 6 and has had a big interest in moving and
-        the body ever since.
-      </p>
+    <div class="text">
+      <p class="title-project">GOLDEN HOUR</p>
+      <p class="year-project">2021</p>
 
-      <p class="brood">
-        Captivated by dance and eager for experiment, De Haes took a bachelor’s
-        and master’s degree in Visual Arts, Autonomous Design, at the School of
-        Arts in Ghent. To become proficient in choreography, she enjoyed an
-        internship at the School for New Dance Development at the Amsterdam
-        School of the Arts in 2017. In her bachelor's degree she made
-        connections between different mediums and the body, which can be seen in
-        ‘Hommes’ (video), ‘Dansbingo’ (performative play between audience and
-        performers), Volume I (installation), etc.
-      </p>
-
-      <p class="brood">
-        In her masters she developed as a director and choreographer with the
-        preliminary research for the dance performance ‘Untitled’. Interested in
-        bringing people together in a project, there is always a focus on the
-        moving body as a creative medium.
-      </p>
-
-      <p class="brood">
-        Astrid lives in Van Bree, a creative hub in Antwerp that regularly hosts
-        Van Bree sessions on Sundays throughout the year. Artists who have
-        already performed in 2022 include Brenda, Bontridders, Hoffman, Viva Los
-        Djs, Dylan Cox, Noonzy, Orlan, Floridada,...
-      </p>
-
-      <p class="brood">
-        In addition to her own practice, Astrid is also active as a business and
-        production manager for other companies and creators.
-      </p>
-
-      <p class="brood">
-        De Haes is active as a director, choreographer, cultural and business
-        manager. Bringing people together and collaborating with a group is a
-        must in Astrid’s work.
-      </p>
+      <div class="brood-group">
+        <div class="brood">
+          <p>
+            Liza De Maeyer and Astrid De Haes had the opportunity to work with
+            dance and film for the very first time in the stunning ardennes
+            together with seven gorgeous dancers. This has turned into an
+            exhibition with film and photos. This exhibition is a portrait of
+            our experiment and took place the 21 of november 2021 in Antwerp.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
-  <script src="/js/main.js"></script>
+  <footer>
+    <div class="list">
+      <p class="list-title">Concept</p>
+      <p class="list-item">Astrid De Haes & Liza De Maeyer</p>
+      <p class="list-title">Dance</p>
+      <p class="list-item">
+        Bjorn Floréal, Mustaf Ahmeti, Melody Van Gompel, Misha Demoustier,
+        Leonie van Galen, Nathan De Laet, Louis Siegert
+      </p>
+      <p class="list-title">Photography</p>
+      <p class="list-item">Pommelien Koolen</p>
+      <p class="list-title">Sound</p>
+      <p class="list-item">Judith Van Eenooghe</p>
+      <p class="list-title">Music</p>
+      <p class="list-item">Pepijn Leenders</p>
+      <p class="list-title">Editing</p>
+      <p class="list-item">Anton Nicasy</p>
+    </div>
+    <div class="next-project">
+      <p>next project &rarr;</p>
+      <a class="title-project" href="untitled.html">Untitled</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/hamburger.js"></script>
 </html>
