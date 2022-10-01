@@ -47,7 +47,7 @@ p {
   .project p {
     font-family: 'TGL-0-17';
     color: #ffffff;
-    text-shadow: 2px 0 0 rgb(255, 0, 0);
+    text-shadow: 3px 3px 0 rgb(255, 0, 0);
     text-decoration: none;
     font-size: 50px;
     display: flex;

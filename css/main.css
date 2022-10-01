@@ -48,6 +48,22 @@ header {
   padding: 15px 25px 25px 25px;
 }
 
+
+
+.title-project {
+  font-family: 'TGL-0-17';
+  color: #ffffff;
+  text-shadow: 3px 3px 0 rgb(255, 0, 0);
+  text-decoration: none;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  line-height: 55px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
 /* Title */
 .title {
   font-family: 'Standard';
@@ -55,7 +71,6 @@ header {
   font-size: 24px;
   color: rgb(255, 0, 212);
   word-break: keep-all;
-  width: 30vw;
   z-index: 1;
 }
 
@@ -141,14 +156,7 @@ color: white;
 .year-project {
   font-size: 15px;
   padding: 0 0 25px 25px;
-}
-
-.title-project {
-  font-family: 'TGL-0-17';
-  text-decoration: none;
-  font-size: 27px;
-  padding: 25px 0 0 25px;
-
+  color: rgb(0, 0, 0);
 }
 
 .projects-index img {
@@ -183,6 +191,10 @@ color: white;
 .intro p {
   font-family: 'CMU-italic';
   font-size: 17px;
+}
+
+.brood-group {
+  padding-top: 25px;
 }
 
 .brood p {
@@ -267,6 +279,8 @@ footer {
 }
 
 .next-project a {
+  font-family: "TGL-0-17";
+  font-size: 20px;
   text-decoration: none;
   color: black;
 }
