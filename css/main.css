@@ -157,6 +157,7 @@ color: white;
   font-size: 15px;
   padding: 0 0 25px 25px;
   color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 .projects-index img {
@@ -189,8 +190,7 @@ color: white;
 }
 
 .intro p {
-  font-family: 'CMU-italic';
-  font-size: 17px;
+  font-style: oblique;
 }
 
 .brood-group {
@@ -255,7 +255,6 @@ padding-right: 15px;
 footer {
   display: flex;
   flex-direction: column;
-  bottom: 0;
 }
 
 .list {
@@ -320,17 +319,15 @@ video {
   footer {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    bottom: 0;
+    justify-content: space-between;
+    align-items: baseline;
     width: 100vw;
   }
 
   .next-project {
     font-family: 'Standard';
-    position: absolute;
-    right: 0;
-    bottom: 0;
     text-align: right;
+
   }
 
 }
