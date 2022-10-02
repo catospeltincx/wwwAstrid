@@ -49,19 +49,18 @@ header {
 }
 
 
-
 .title-project {
   font-family: 'TGL-0-17';
   color: #ffffff;
-  text-shadow: 3px 3px 0 rgb(255, 0, 0);
+  text-shadow: 2px 2px 0 rgb(255, 0, 0);
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
-  line-height: 55px;
-  margin: auto;
+  line-height: 35px;
   text-align: center;
   display: block;
+  width: 33.33vw;
 }
 
 /* Title */
@@ -72,12 +71,13 @@ header {
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
+  width: 33.33vw;
 }
 
 
 /* Hamburger */
 .hamburger {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 7px;
   right: 15px;
@@ -119,10 +119,10 @@ header {
 }
 
 .menu {
-  font-size: 15px;
+  font-size: 16.5px;
   display: block;
   text-align: right;
-  position: fixed;
+  position: absolute;
   transform: translateY(-150%);
   transition: transform 0.3s;
   top: 0;
@@ -255,6 +255,7 @@ padding-right: 15px;
 footer {
   display: flex;
   flex-direction: column;
+  bottom: 0;
 }
 
 .list {
@@ -319,13 +320,17 @@ video {
   footer {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
   }
 
   .next-project {
     font-family: 'Standard';
-    margin: 0 50px 50px auto;
-    bottom: 0;
+    position: absolute;
     right: 0;
+    bottom: 0;
+    text-align: right;
   }
 
 }

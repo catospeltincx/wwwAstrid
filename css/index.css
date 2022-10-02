@@ -24,13 +24,13 @@ p {
 }
 
 .title {
-    font-family: 'Standard';
-    position: fixed;
-    height: fit-content;
-    font-size: 24px;
-    color: rgb(255, 0, 212);
-    word-break: keep-all;
-    width: 30vw;
+  font-family: 'Standard';
+  height: fit-content;
+  font-size: 24px;
+  color: rgb(255, 0, 212);
+  word-break: keep-all;
+  z-index: 1;
+  text-decoration: none;
 }
 
 .wrap {
@@ -111,7 +111,7 @@ p {
 }
 
 .menu {
-  font-size: 20px;
+  font-size: 17px;
   display: block;
   text-align: right;
   position: fixed;
