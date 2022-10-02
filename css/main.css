@@ -45,33 +45,36 @@ header {
 .wrap {
   display: flex;
   flex-direction: row;
-  padding: 15px 25px 25px 25px;
+  padding: 10px;
 }
 
 
 .title-project {
   font-family: 'TGL-0-17';
   color: #ffffff;
-  text-shadow: 2px 2px 0 rgb(255, 0, 0);
+  text-shadow: 1.5px 1.5px 0 rgb(255, 0, 0);
   text-decoration: none;
-  font-size: 30px;
   display: flex;
   flex-direction: row;
-  line-height: 35px;
   text-align: center;
   display: block;
-  width: 33.33vw;
+  width: 45vw;
+}
+
+p.title-project {
+  font-size: 22px;
+line-height: 24px;
 }
 
 /* Title */
 .title {
   font-family: 'Standard';
   height: fit-content;
-  font-size: 24px;
+  font-size: 17px;
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
-  width: 33.33vw;
+  width: 27vw;
 }
 
 
@@ -79,8 +82,8 @@ header {
 .hamburger {
   position: absolute;
   z-index: 100;
-  top: 7px;
-  right: 15px;
+  top: -4px;
+  right: 5px;
   display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
@@ -119,7 +122,8 @@ header {
 }
 
 .menu {
-  font-size: 16.5px;
+  font-size: 13px;
+  line-height: 15px;
   display: block;
   text-align: right;
   position: absolute;
@@ -127,11 +131,13 @@ header {
   transition: transform 0.3s;
   top: 0;
   left: 0;
-  right: 50px;
+  right: 27px;
   bottom: 0;
   z-index: 99;
   list-style: none;
   height: fit-content;
+  padding-top: 0px;
+  
 }
 
 .menu a {
