@@ -30,7 +30,7 @@ p {
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
-  text-decoration: none;
+
 }
 
 .wrap {
@@ -40,15 +40,18 @@ p {
   padding: 15px 25px 15px 25px;
 }
 
+.wrap a {
+  text-decoration: none;
+}
+
 .projects {
-    padding-top: 100px;
+    padding-top: 35px;
   }
   
   .project p {
     font-family: 'TGL-0-17';
     color: #ffffff;
     text-shadow: 3px 3px 0 rgb(255, 0, 0);
-    text-decoration: none;
     font-size: 50px;
     display: flex;
     flex-direction: row;
@@ -59,6 +62,10 @@ p {
     display: block;
     max-width: 500px;
 
+  }
+
+  .project {
+    text-decoration: none;
   }
   
   .project a:hover {

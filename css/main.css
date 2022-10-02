@@ -238,7 +238,7 @@ padding-bottom: 25px;
 .places-piece {
   font-family: "TGL-0-17";
   font-size: 20px;
-  padding-right: 15px;
+  padding:  0 5px 3px 20px;
 }
 
 .places-date {
