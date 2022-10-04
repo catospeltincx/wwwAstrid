@@ -71,7 +71,7 @@ line-height: 24px;
 .title {
   font-family: 'Standard';
   height: fit-content;
-  font-size: 17px;
+  font-size: 35px;
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
