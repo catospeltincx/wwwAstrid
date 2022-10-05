@@ -30,14 +30,13 @@ p {
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
-
 }
 
 .wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 7px 25px 25px 16px;
+  padding: 15px 25px 25px 20px;
 }
 
 .wrap a {
@@ -94,8 +93,8 @@ p {
 .hamburger {
   position: absolute;
   z-index: 100;
-  top: -4px;
-  right: 5px;
+  top: 6px;
+  right: 13px;
   display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
@@ -127,7 +126,7 @@ p {
   transition: transform 0.3s;
   top: -5px;
   left: 0;
-  right: 30px;
+  right: 45px;
   bottom: 0;
   z-index: 99;
   list-style: none;
@@ -136,10 +135,14 @@ p {
 
 .menu a {
   font-family: "Standard";
-  color: white;
+  color: rgb(167, 167, 170);
   padding: 0 5px 5px 5px;
   text-decoration: none;
 }
+
+.menu a:hover {
+  color: white;
+  }
 
 .showMenu {
   transform: translateY(0);

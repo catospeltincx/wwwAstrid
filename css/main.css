@@ -46,9 +46,12 @@ header {
 .wrap {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 15px 25px 25px 20px;
 }
 
+.wrap a {
+  text-decoration: none;
+}
 
 .title-project {
   font-family: 'TGL-0-17';
@@ -56,7 +59,6 @@ header {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  /* text-align: center; */
   display: block;
   width: 45vw;
 }
@@ -84,8 +86,8 @@ line-height: 26px;
 .hamburger {
   position: absolute;
   z-index: 100;
-  top: -4px;
-  right: 5px;
+  top: 6px;
+  right: 13px;
   display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
@@ -131,7 +133,7 @@ line-height: 26px;
   transition: transform 0.3s;
   top: -5px;
   left: 0;
-  right: 30px;
+  right: 45px;
   bottom: 0;
   z-index: 99;
   list-style: none;
