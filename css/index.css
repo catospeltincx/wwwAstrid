@@ -8,9 +8,9 @@ body {
 }
 
 p {
-    margin: 0;
-    color: white;
-    font-family: 'Standard';
+  margin: 0;
+  color: white;
+  font-family: 'Standard';
 }
 
 @font-face {
@@ -23,8 +23,19 @@ p {
   src: url(/src/fonts/TGL-0-17.ttf);
 }
 
+@font-face {
+  font-family: Junction-Bold;
+  src: url(/src/fonts/Junction-bold.otf);
+}
+
+@font-face {
+  font-family: Junction-Regular;
+  src: url(/src/fonts/Junction-regular.otf);
+}
+
+
 .title {
-  font-family: 'Standard';
+  font-family: 'Junction-Bold';
   height: fit-content;
   font-size: 24px;
   color: rgb(255, 0, 212);
