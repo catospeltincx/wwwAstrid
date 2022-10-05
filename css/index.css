@@ -37,7 +37,7 @@ p {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 15px 25px 15px 25px;
+  padding: 7px 25px 25px 16px;
 }
 
 .wrap a {
@@ -92,15 +92,16 @@ p {
 /* Hamburger Menu */
 
 .hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 7px;
-    right: 15px;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    display: flex;
-    flex-direction: row;
+  position: absolute;
+  z-index: 100;
+  top: -4px;
+  right: 5px;
+  display: block;
+  cursor: pointer;
+  background-color: rgba(148, 137, 137, 0);
+  border: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .hamburger .closeIcon {
@@ -122,11 +123,11 @@ p {
   display: block;
   text-align: right;
   position: fixed;
-  transform: translateY(-150%);
+  transform: translateY(-140%);
   transition: transform 0.3s;
-  top: 0;
+  top: -5px;
   left: 0;
-  right: 50px;
+  right: 30px;
   bottom: 0;
   z-index: 99;
   list-style: none;
@@ -136,7 +137,7 @@ p {
 .menu a {
   font-family: "Standard";
   color: white;
-  padding: 5px;
+  padding: 0 5px 5px 5px;
   text-decoration: none;
 }
 

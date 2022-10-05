@@ -40,7 +40,7 @@ a {
 header {
   background-color: black;
   height: fit-content;
-  min-height: 87px;
+  min-height: 99px;
 }
 
 .wrap {
@@ -53,29 +53,30 @@ header {
 .title-project {
   font-family: 'TGL-0-17';
   color: #ffffff;
-  text-shadow: 1.5px 1.5px 0 rgb(255, 0, 0);
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  text-align: center;
+  /* text-align: center; */
   display: block;
   width: 45vw;
 }
 
 p.title-project {
-  font-size: 22px;
-line-height: 24px;
+  font-size: 24px;
+line-height: 26px;
 }
 
 /* Title */
 .title {
   font-family: 'Standard';
   height: fit-content;
-  font-size: 35px;
+  font-size: 34px;
   color: rgb(255, 0, 212);
   word-break: keep-all;
   z-index: 1;
-  width: 27vw;
+  width: 20vw;
+  line-height: 10px;
+  padding-left: 2px;
 }
 
 
@@ -101,7 +102,6 @@ line-height: 24px;
 .hamburger .menuIcon {
   color: rgb(0, 150, 50);
   font-size: 40px;
-  
 }
 
 .closeIcon {
@@ -123,28 +123,25 @@ line-height: 24px;
 }
 
 .menu {
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 16.5px;
   display: block;
   text-align: right;
-  position: absolute;
-  transform: translateY(-150%);
+  position: fixed;
+  transform: translateY(-140%);
   transition: transform 0.3s;
-  top: 0;
+  top: -5px;
   left: 0;
   right: 30px;
   bottom: 0;
   z-index: 99;
   list-style: none;
   height: fit-content;
-  padding-top: 0px;
-  
 }
 
 .menu a {
   font-family: "Standard";
   color: rgb(167, 167, 170);
-  padding: 5px;
+  padding: 0 5px 5px 5px;
   text-decoration: none;
 }
 
@@ -320,12 +317,26 @@ video {
 
 
 /* DESKTOP */
+@media screen and (min-width: 430px) {
+  .title-project{
+    max-width: 300px;
+  }
+  p.title-project {
+    font-size: 32px;
+    line-height: 33px;
+  }
 
+  .wrap{
+    padding: 15px;
+  }
+
+}
 @media screen and (min-width: 750px) {
   .brood-group {
     column-count: 2;
     width: 100vw;
   }
+
 
   footer {
     display: flex;
