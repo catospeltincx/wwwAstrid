@@ -125,15 +125,15 @@ line-height: 26px;
 }
 
 .menu {
-  font-size: 16.5px;
+  font-size: 18px;
   display: block;
   text-align: right;
   position: fixed;
   transform: translateY(-140%);
   transition: transform 0.3s;
-  top: -5px;
+  top: 23px;
   left: 0;
-  right: 45px;
+  right: 35px;
   bottom: 0;
   z-index: 99;
   list-style: none;
@@ -160,10 +160,11 @@ color: white;
 
 /* PROJECT-PAGINA */
 .year-project {
-  font-size: 15px;
-  padding: 0 0 25px 25px;
-  color: rgb(0, 0, 0);
+  font-size: 13px;
+  padding-left: 5px;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  width: 15vw;
 }
 
 .projects-index img {
@@ -191,7 +192,7 @@ color: white;
 /* PROJECT-PAGE */
 /* text */
 .intro {
-  padding: 0 25px 25px 25px;
+  padding: 0 25px 0 25px;
   line-height: 23px;
 }
 
@@ -280,12 +281,15 @@ footer {
 
 .next-project {
   font-family: 'Standard';
-  margin: 0 50px 50px 20px;
+  margin: 25px;
   left: 0;
+  text-align: right;
+  
 }
 
 .next-project p {
   font-size: 13px;
+  padding-bottom: 7px;
 }
 
 .next-project a {
@@ -293,7 +297,29 @@ footer {
   font-size: 20px;
   text-decoration: none;
   color: black;
+  line-height: 16px;
+  width: 100px;
 }
+
+.all-projects {
+  font-family: 'Standard';
+  margin: 0 50px 50px 20px;
+  left: 0;
+}
+
+.all-projects p {
+  font-size: 13px;
+  color: rgb(255, 0, 212);
+}
+
+.all-projects a {
+  font-family: "TGL-0-17";
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 0, 212);
+}
+
+
 
 
 /* carrousel */

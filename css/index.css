@@ -118,15 +118,15 @@ p {
 }
 
 .menu {
-  font-size: 16.5px;
+  font-size: 18px;
   display: block;
   text-align: right;
   position: fixed;
   transform: translateY(-140%);
   transition: transform 0.3s;
-  top: -5px;
+  top: 23px;
   left: 0;
-  right: 45px;
+  right: 35px;
   bottom: 0;
   z-index: 99;
   list-style: none;
