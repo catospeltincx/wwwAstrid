@@ -299,21 +299,28 @@ p.list-title, p.list-item {
 }
 
 .next-project a, .prev-project a{
-  font-family: 'Junction-bold';
+  font-family: 'TGL-0-17';
   color: rgb(255, 255, 255);
 }
 
+
 .button-wrap {
-  border: 3px dotted rgb(0, 0, 0);
-  border-radius: 15px;
-  padding: 5px;
-  background-color: black;
+  border-radius: 20px;
+  padding: 10px 15px 5px 15px;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   height: fit-content;
 }
 
-.button-wrap p {
-  color: aqua;
+.button-wrap a {
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+  font-size: 18px;
+}
+
+.button-wrap a:hover {
+  color: rgb(255, 0, 208);
+  transition-duration: 0.4s;
 }
 
 /* carrousel */
