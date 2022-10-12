@@ -84,9 +84,13 @@ line-height: 26px;
 .title {
   position: fixed;
   font-size: 25px;
-  color: rgb(255, 0, 212);
+  color: white;
   z-index: 1;
+}
 
+.title:hover {
+  color: rgb(255, 0, 208);
+  transition-duration: 0.4s;
 }
 
 /* Hamburger */
@@ -328,6 +332,13 @@ video {
 
 
 /* DESKTOP */
+@media screen and (min-height: 750px) {
+  .only-text-footer{
+    position: absolute;
+    bottom: 0;
+  }
+} 
+
 @media screen and (min-width: 430px) {
   .title-project{
     max-width: 300px;
@@ -343,6 +354,7 @@ video {
   }
 
 }
+
 @media screen and (min-width: 750px) {
   .brood-group {
     column-count: 2;
