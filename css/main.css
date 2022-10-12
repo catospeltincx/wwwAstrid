@@ -139,6 +139,7 @@ line-height: 26px;
   z-index: 99;
   list-style: none;
   height: fit-content;
+  line-height: 25px;
 }
 
 .menu a {
@@ -146,6 +147,7 @@ line-height: 26px;
   color: rgb(167, 167, 170);
   padding: 0 5px 5px 5px;
   text-decoration: none;
+  
 }
 
 .menu a:hover {
@@ -265,62 +267,54 @@ padding-right: 15px;
 footer {
   display: flex;
   flex-direction: column;
-  font-family: 'Junction-Bold';
+  align-content: flex-end;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100vw;
 }
 
 .list {
   font-size: 15px;
   height: fit-content;
-  padding: 25px 0 50px 20px;
-  max-width: 350px;
+  padding: 25px 0 50px 25px;
   bottom: 0;
+}
+
+p.list-title, p.list-item {
+  font-family: 'Junction-regular';
+  font-size: 13px;
+  line-height: 22px;
 }
 
 .list-item {
   padding-left: 10px;
-  font-size: 13px;
-  line-height: 20px;
 }
 
-.next-project {
-  font-size: 15px;
-  font-family: 'Junction-Bold';
-  margin: 25px;
-  left: 0;
-  text-align: right;
+/* NEST/PREV PROJECT */
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 25px 25px 25px;
 }
 
-.next-project p {
-  padding-bottom: 7px;
+.next-project a, .prev-project a{
+  font-family: 'Junction-bold';
+  color: rgb(255, 255, 255);
 }
 
-.next-project a {
-  text-decoration: none;
-  color: black;
-  line-height: 16px;
-  width: 100px;
+.button-wrap {
+  border: 3px dotted rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 5px;
+  background-color: black;
+  text-align: center;
+  height: fit-content;
 }
 
-.all-projects {
-  font-family: 'Standard';
-  margin: 0 50px 50px 20px;
-  left: 0;
+.button-wrap p {
+  color: aqua;
 }
-
-.all-projects p {
-  font-size: 13px;
-  color: rgb(255, 0, 212);
-}
-
-.all-projects a {
-  font-family: "TGL-0-17";
-  font-size: 20px;
-  text-decoration: none;
-  color: rgb(255, 0, 212);
-}
-
-
-
 
 /* carrousel */
 img {
@@ -349,12 +343,13 @@ video {
   .title-project{
     max-width: 300px;
   }
+
   p.title-project {
     font-size: 32px;
     line-height: 33px;
   }
 
-  .wrap{
+  .wrap {
     padding: 15px;
   }
 
@@ -365,20 +360,6 @@ video {
     width: 100vw;
   }
 
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100vw;
-  }
-
-  .next-project {
-    font-family: 'Standard';
-    text-align: right;
-
-  }
 
 }
 
