@@ -100,12 +100,11 @@ p {
   }
 
 /* Hamburger Menu */
-
 .hamburger {
-  position: absolute;
+  position: fixed;
   z-index: 100;
-  top: 6px;
-  right: 13px;
+  top: 3px;
+  right: 9px;
   display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
@@ -116,12 +115,12 @@ p {
 
 .hamburger .closeIcon {
   color: rgb(255, 0, 0);
-  font-size: 40px;
+  font-size: 43px;
 }
 
 .hamburger .menuIcon {
   color: rgb(0, 150, 50);
-  font-size: 40px;
+  font-size: 43px;
 }
 
 .closeIcon {
@@ -129,36 +128,37 @@ p {
 }
 
 .menu {
-  font-size: 18px;
+  font-size: 16px;
   display: block;
   text-align: right;
   position: fixed;
   transform: translateY(-140%);
   transition: transform 0.3s;
-  top: 23px;
+  top: 3px;
   left: 0;
-  right: 35px;
+  right: 40px;
   bottom: 0;
   z-index: 99;
   list-style: none;
   height: fit-content;
-  line-height: 25px;
+  line-height: 23.5px;
 }
 
 .menu a {
-  font-family: "Junction-Regular";
-  color: rgb(167, 167, 170);
+  font-family: "Junction-Bold";
+  color: rgb(255, 0, 0);
   padding: 0 5px 5px 5px;
   text-decoration: none;
 }
 
 .menu a:hover {
-  color: white;
-  }
-
-.showMenu {
-  transform: translateY(0);
-}
+  color: rgb(0, 150, 50);
+ }
+ 
+ 
+ .showMenu {
+   transform: translateY(0); 
+ }
   
   
   
