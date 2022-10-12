@@ -127,7 +127,7 @@ line-height: 26px;
   transition: transform 0.3s;
   top: 3px;
   left: 0;
-  right: 35px;
+  right: 40px;
   bottom: 0;
   z-index: 99;
   list-style: none;
@@ -196,7 +196,7 @@ line-height: 26px;
   padding: 0 25px 25px 25px;
   font-size: 15px;
   max-width: 450px;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 /* ABOUT-PAGE */
@@ -245,7 +245,6 @@ padding-right: 15px;
 }
 
 
-
 /* FOOTER */
 footer {
   display: flex;
@@ -264,9 +263,9 @@ footer {
 }
 
 p.list-title, p.list-item {
-  font-family: 'Junction-regular';
-  font-size: 13px;
-  line-height: 22px;
+  font-family: 'Junction-Bold';
+  font-size: 15px;
+  line-height: 23px;
 }
 
 .list-item {
