@@ -47,11 +47,23 @@ header {
 .wrap {
   display: flex;
   flex-direction: row;
-  padding: 15px 25px 25px 20px;
+  padding: 15px;
 }
 
 .wrap a {
   text-decoration: none;
+}
+
+.project {
+  padding-left: 50px;
+  width: 60vw;
+}
+
+.year-project {
+  font-family: 'Standard';
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 5px;
 }
 
 .title-project {
@@ -61,7 +73,6 @@ header {
   display: flex;
   flex-direction: row;
   display: block;
-  width: 45vw;
 }
 
 p.title-project {
@@ -69,26 +80,21 @@ p.title-project {
 line-height: 26px;
 }
 
-/* Title */
+/* home-btn */
 .title {
-  font-family: 'Standard';
-  height: fit-content;
-  font-size: 34px;
+  position: fixed;
+  font-size: 25px;
   color: rgb(255, 0, 212);
-  word-break: keep-all;
   z-index: 1;
-  width: 20vw;
-  line-height: 10px;
-  padding-left: 2px;
-}
 
+}
 
 /* Hamburger */
 .hamburger {
-  position: absolute;
+  position: fixed;
   z-index: 100;
-  top: 6px;
-  right: 13px;
+  top: -10px;
+  right: 7px;
   display: block;
   cursor: pointer;
   background-color: rgba(148, 137, 137, 0);
@@ -99,25 +105,12 @@ line-height: 26px;
 
 .hamburger .closeIcon {
   color: rgb(255, 0, 0);
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .hamburger .menuIcon {
   color: rgb(0, 150, 50);
-  font-size: 40px;
-}
-
-.closeIcon {
-    display: none;
-}
-.hamburger .closeIcon {
-  color: rgb(255, 0, 0);
-  font-size: 40px;
-}
-
-.hamburger .menuIcon {
-  color: rgb(0, 150, 50);
-  font-size: 40px;
+  font-size: 60px;
   
 }
 
@@ -126,32 +119,31 @@ line-height: 26px;
 }
 
 .menu {
-  font-size: 18px;
+  font-size: 16px;
   display: block;
   text-align: right;
   position: fixed;
   transform: translateY(-140%);
   transition: transform 0.3s;
-  top: 23px;
+  top: 3px;
   left: 0;
   right: 35px;
   bottom: 0;
   z-index: 99;
   list-style: none;
   height: fit-content;
-  line-height: 25px;
+  line-height: 23.5px;
 }
 
 .menu a {
-  font-family: "Standard";
-  color: rgb(167, 167, 170);
+  font-family: "Junction-Bold";
+  color: rgb(255, 0, 0);
   padding: 0 5px 5px 5px;
   text-decoration: none;
-  
 }
 
 .menu a:hover {
-color: white;
+ color: rgb(0, 150, 50);
 }
 
 
@@ -162,14 +154,6 @@ color: white;
 
 
 /* PROJECT-PAGINA */
-.year-project {
-  font-family: 'Standard';
-  font-size: 13px;
-  padding-left: 5px;
-  color: rgb(255, 255, 255);
-  width: 15vw;
-}
-
 .projects-index img {
   width: 100vw;
   height: auto;
@@ -239,8 +223,7 @@ color: white;
 
 /* --------- PAST/UPCOMING-PAGEs ----------- */
 .places-wrap {
-  padding: 25px;
-
+  padding: 15px;
 }
 
 .places-item {
