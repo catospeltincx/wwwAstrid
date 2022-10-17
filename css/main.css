@@ -55,7 +55,7 @@ header {
 }
 
 .project {
-  padding-left: 70px;
+  padding-left: 35px;
   width: 60vw;
 }
 
@@ -88,10 +88,10 @@ p.title-project {
   z-index: 1;
 }
 
-.title:hover {
-  color: rgb(255, 0, 208);
-  transition-duration: 0.4s;
+svg {
+  margin-top: 10px;
 }
+
 
 /* Hamburger */
 .hamburger {
