@@ -56,7 +56,7 @@ header {
 
 .project {
   padding-left: 35px;
-  width: 60vw;
+  width: 50vw;
 }
 
 .year-project {
@@ -81,11 +81,9 @@ p.title-project {
 }
 
 /* home-btn */
-.title {
-  position: fixed;
-  font-size: 50px;
+.home {
   color: rgb(255, 0, 208);
-  z-index: 1;
+  z-index: 100;
 }
 
 svg {
@@ -96,7 +94,7 @@ svg {
 /* Hamburger */
 .hamburger {
   position: fixed;
-  z-index: 100;
+  z-index: 99;
   top: -10px;
   right: 7px;
   display: block;
@@ -105,6 +103,7 @@ svg {
   border: none;
   display: flex;
   flex-direction: row;
+  width: fit-content;
 }
 
 .hamburger .closeIcon {
@@ -174,7 +173,7 @@ svg {
   text-align: right;
 }
 
-/* ABOUT */
+/* about */
 .about {
   z-index: 100;
 }
@@ -183,7 +182,8 @@ svg {
 /* PROJECT-PAGE */
 /* text */
 .intro {
-  padding: 0 25px 0 25px;
+  padding: 0 25px 25px 25px;
+  max-width: 600px;
 }
 
 .intro p {
@@ -192,9 +192,6 @@ svg {
   font-size: 15px;
 }
 
-.brood-group-max-1col, .brood-group-max-2col {
-  padding-top: 25px;
-}
 
 .brood p {
   padding: 0 25px 25px 25px;
@@ -204,7 +201,26 @@ svg {
   min-height: 5px;
 }
 
-/* ABOUT-PAGE */
+/*uitzondering brood, caption SPACE*/
+.brood-space p{
+  padding: 0 25px 10px 25px;
+  font-size: 15px;
+  min-height: 5px;
+}
+
+.brood-space {
+  padding-bottom: 50px;
+}
+
+.caption-space {
+  font-size: 11px;
+  padding: 13px;
+  display: block;
+  text-align: right;
+  max-width: 1010px;
+}
+
+/* about-PAGE */
 .brood-group-about {
   padding-top: 25px;
 }
@@ -226,7 +242,7 @@ svg {
   line-height: 20px;
 }
 
-/* --------- PAST/UPCOMING-PAGEs ----------- */
+/* --------- past/upcoming-PAGEs ----------- */
 .places-wrap {
   padding: 15px;
 }
@@ -263,14 +279,14 @@ footer {
 .list {
   font-size: 15px;
   height: fit-content;
-  padding: 25px 0 50px 25px;
+  padding: 25px 0 25px 25px;
   bottom: 0;
   max-width: 500px;
 }
 
 p.list-title, p.list-item {
-  font-family: 'Junction-Bold';
-  font-size: 15px;
+  font-family: 'Junction-Regular';
+  font-size: 13px;
   line-height: 23px;
 }
 
@@ -312,7 +328,7 @@ p.list-title, p.list-item {
 }
 
 /* carrousel */
-img {
+.main-carousel img {
   display: block;
   height: 70vh;
   width: auto;
@@ -329,6 +345,12 @@ img {
   -ms-overflow-style: none;
   scrollbar-width: none;
   align-items: flex-start;
+}
+
+/* single img*/
+.space-carousel img{
+  width: 100vw;
+  max-width: 1000px;
 }
 
 
@@ -379,10 +401,28 @@ img {
 
   .brood-group-max-1col, .brood-group-max-2col{
     justify-content: flex-start;
-    max-width: 60vw;
+    max-width: 100vw;
   }
 
 
+}
+
+@media screen and (min-width: 900px) {
+  .brood-group-max-1col, .brood-group-max-2col {
+    max-width: 80vw;
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  .brood-group-max-1col, .brood-group-max-2col {
+    max-width: 60vw;
+  } 
+}
+
+@media screen and (min-width: 1500px) {
+  .brood-group-max-1col, .brood-group-max-2col {
+    max-width: 50vw;
+  } 
 }
 
 
