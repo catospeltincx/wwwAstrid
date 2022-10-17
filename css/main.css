@@ -197,7 +197,7 @@ svg {
 }
 
 .brood p {
-  padding: 0 0 25px 25px;
+  padding: 0 25px 25px 25px;
   font-size: 15px;
   max-width: 450px;
   line-height: 23px;
@@ -265,6 +265,7 @@ footer {
   height: fit-content;
   padding: 25px 0 50px 25px;
   bottom: 0;
+  max-width: 500px;
 }
 
 p.list-title, p.list-item {
@@ -338,6 +339,11 @@ img {
   .only-text-footer{
     position: absolute;
     bottom: 0;
+  }
+
+  .video-untitled {
+    width: auto;
+    height: 70vh;
   }
 }
 
