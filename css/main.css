@@ -197,7 +197,7 @@ svg {
   padding: 0 25px 25px 25px;
   font-size: 15px;
   max-width: 450px;
-  line-height: 23px;
+  line-height: 27px;
   min-height: 5px;
 }
 
@@ -277,16 +277,16 @@ footer {
 }
 
 .list {
-  font-size: 15px;
   height: fit-content;
   padding: 25px 0 25px 25px;
   bottom: 0;
   max-width: 500px;
 }
 
+
 p.list-title, p.list-item {
   font-family: 'Junction-Regular';
-  font-size: 13px;
+  font-size: 14px;
   line-height: 23px;
 }
 
@@ -330,7 +330,7 @@ p.list-title, p.list-item {
 /* carrousel */
 .main-carousel img {
   display: block;
-  height: 70vh;
+  height: 60vh;
   width: auto;
 }
 
