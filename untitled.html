@@ -6,14 +6,16 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/flickity.css" />
     <title>Astrid De Haes</title>
   </head>
   <header>
     <div class="wrap">
-      <a href="index.html"><p class="title">&larr;</p></a>
-      <p class="year-project">2021</p>
-      <p class="title-project">UNTITLED</p>
+      <a href="index.html"><p class="title">&crarr;</p></a>
+
+      <div class="project">
+        <p class="year-project">2021</p>
+        <p class="title-project">UNTITLED</p>
+      </div>
       <ul class="menu">
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -29,15 +31,18 @@
   </header>
 
   <body>
-    <div
-      class="main-carousel"
-      data-flickity='{ "cellAlign": "left", "contain": true }'
-    >
+    <div class="main-carousel">
       <div class="carousel-img"><img src="src/Untitled_1.JPG" alt="" /></div>
       <div class="carousel-img"><img src="src/Untitled_3.JPG" alt="" /></div>
       <div class="carousel-img"><img src="src/Untitled_4.JPG" alt="" /></div>
       <div class="carousel-img">
-        <video src="src/Untitled.mov" autoplay loop muted></video>
+        <video
+          class="video-untitled"
+          src="src/Untitled.mov"
+          autoplay
+          loop
+          muted
+        ></video>
       </div>
     </div>
     <div class="caption"><p>© Camille Ghekiere</p></div>
@@ -136,11 +141,19 @@
       <p class="list-title">Coproductie</p>
       <p class="list-item">Joris Ghekiere Estate</p>
     </div>
-    <div class="next-project">
-      <p>next project &rarr;</p>
-      <a href="clubbing.html">CLUBBING AT 7</a>
+    <div class="nav-buttons">
+      <div class="button-wrap">
+        <div class="prev-project">
+          <a href="golden-hour.html">&larr; GOLDEN HOUR</a>
+        </div>
+      </div>
+
+      <div class="button-wrap">
+        <div class="next-project">
+          <a href="clubbing.html">CLUBBING AT 7 &rarr; </a>
+        </div>
+      </div>
     </div>
   </footer>
-  <script src="js/main.js"></script>
   <script src="js/hamburger.js"></script>
 </html>

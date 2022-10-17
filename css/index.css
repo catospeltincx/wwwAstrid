@@ -101,7 +101,7 @@ p {
 
 /* Hamburger Menu */
 .hamburger {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 3px;
   right: 9px;

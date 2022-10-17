@@ -317,6 +317,10 @@ img {
   width: auto;
 }
 
+.video-untitled {
+  width: 100vw;
+}
+
 .main-carousel {
   display: flex;
   flex-direction: row;
