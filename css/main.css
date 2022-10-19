@@ -353,8 +353,6 @@ p.list-title, p.list-item {
   max-width: 1000px;
 }
 
-
-
 /* DESKTOP */
 /* nog checken */
 @media screen and (min-height: 750px) {
@@ -365,7 +363,7 @@ p.list-title, p.list-item {
 
   .video-untitled {
     width: auto;
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -382,7 +380,6 @@ p.list-title, p.list-item {
   .wrap {
     padding: 15px;
   }
-
 }
 
 @media screen and (min-width: 750px) {
@@ -403,7 +400,6 @@ p.list-title, p.list-item {
     justify-content: flex-start;
     max-width: 100vw;
   }
-
 
 }
 
