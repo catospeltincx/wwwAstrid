@@ -193,16 +193,16 @@ svg {
 
 .brood p {
   padding: 0 25px 25px 25px;
-  font-size: 15px;
+  font-size: 13px;
   max-width: 450px;
-  line-height: 27px;
+  line-height: 24px;
   min-height: 5px;
 }
 
 /*uitzondering brood, caption SPACE*/
 .brood-space p{
   padding: 0 25px 10px 25px;
-  font-size: 15px;
+  font-size: 13px;
   min-height: 5px;
 }
 
@@ -278,19 +278,22 @@ footer {
   height: fit-content;
   padding: 25px 0 25px 25px;
   bottom: 0;
-  max-width: 500px;
+  max-width: 310px;
 }
 
 
-p.list-title, p.list-item {
-  font-family: 'Junction-Regular';
-  font-size: 14px;
-  line-height: 23px;
+p.list-title, p.list-item  {
+  font-family: "TGL-0-17";
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.list-item {
-  padding-left: 10px;
+
+
+p.list-item {
+  padding-left: 15px;
 }
+
 
 /* NEST/PREV PROJECT */
 .nav-buttons {
@@ -354,10 +357,7 @@ p.list-title, p.list-item {
 /* DESKTOP */
 /* nog checken */
 @media screen and (min-height: 750px) {
-  /* .only-text-footer{
-    position: absolute;
-    bottom: 0;
-  } */
+
 
   .video-untitled {
     width: auto;
@@ -402,8 +402,14 @@ p.list-title, p.list-item {
 }
 
 @media screen and (min-width: 900px) {
+  .horizontal-text {
+    display: flex;
+    flex-direction: row;
+  }
+
   .brood-group-max-1col, .brood-group-max-2col {
     max-width: 80vw;
+    margin: 15px 0 0 0;
   } 
 }
 
