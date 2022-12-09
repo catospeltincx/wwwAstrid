@@ -35,8 +35,6 @@ a {
   src: url(/src/fonts/Junction-regular.otf);
 }
 
-
-
 /*** HEADER ***/
 header {
   background-color: black;
@@ -271,9 +269,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
-  /* position: absolute;
-  bottom: 0; */
   width: 100vw;
+  position: absolute;
+  
 }
 
 .list {
@@ -356,10 +354,10 @@ p.list-title, p.list-item {
 /* DESKTOP */
 /* nog checken */
 @media screen and (min-height: 750px) {
-  .only-text-footer{
+  /* .only-text-footer{
     position: absolute;
     bottom: 0;
-  }
+  } */
 
   .video-untitled {
     width: auto;
