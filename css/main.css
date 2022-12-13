@@ -137,7 +137,9 @@ svg {
 }
 
 .menu a {
-  font-family: "Junction-Bold";
+  font-family: "Standard";
+  font-size: 18px;
+  line-height: 16px;
   color: rgb(255, 0, 0);
   padding: 0 5px 5px 5px;
   text-decoration: none;
