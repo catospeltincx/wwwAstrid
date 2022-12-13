@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+.br {
+  height: 12px;
+}
+
 @font-face {
   font-family: Standard;
   src: url(/src/fonts/standard-book-webfont.woff);
@@ -39,13 +43,12 @@ a {
 header {
   background-color: black;
   height: fit-content;
-  min-height: 99px;
 }
 
 .wrap {
   display: flex;
   flex-direction: row;
-  padding: 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 .wrap a {
@@ -167,9 +170,11 @@ svg {
   padding-bottom: 50px;
 }
 
-.caption {
+.caption p {
   font-size: 11px;
-  padding: 13px;
+  padding: 10px 15px 15px 0;
+  font-family: "Standard";
+  font-style: italic;
   display: block;
   text-align: right;
 }
@@ -184,22 +189,20 @@ svg {
 /* text */
 .intro {
   padding: 0 25px 25px 25px;
-  max-width: 600px;
 }
 
 .intro p {
-  font-family: 'Junction-Bold';
-  line-height: 24px;
-  font-size: 15px;
+  font-family: 'Junction';
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 26px;
+  padding-left: 25px;
 }
-
 
 .brood p {
   padding: 0 25px 25px 25px;
-  font-size: 13px;
-  max-width: 450px;
-  line-height: 24px;
-  min-height: 5px;
+  font-size: 14.5px;
+  line-height: 26px;
 }
 
 /*uitzondering brood, caption SPACE*/
@@ -279,16 +282,16 @@ footer {
 
 .list {
   height: fit-content;
-  padding: 25px 0 25px 25px;
+  padding: 0 0 25px 25px;
   bottom: 0;
   max-width: 310px;
 }
 
 
 p.list-title, p.list-item  {
-  font-family: "TGL-0-17";
-  font-size: 16px;
-  line-height: 22px;
+  font-family: "Standard";
+  font-size: 11px;
+  line-height: 17px;
 }
 
 
@@ -349,6 +352,10 @@ p.list-item {
   -ms-overflow-style: none;
   scrollbar-width: none;
   align-items: flex-start;
+}
+
+.video-walking {
+  width: 100vw;
 }
 
 /* single img*/
