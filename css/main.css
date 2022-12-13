@@ -82,10 +82,11 @@ p.title-project {
 .home {
   color: rgb(255, 0, 208);
   z-index: 100;
+  
 }
 
 svg {
-  margin-top: 10px;
+  width: 35px;
 }
 
 
