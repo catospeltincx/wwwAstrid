@@ -19,6 +19,7 @@ a {
   height: 12px;
 }
 
+
 @font-face {
   font-family: Standard;
   src: url(/src/fonts/standard-book-webfont.woff);
@@ -189,6 +190,7 @@ svg {
 /* text */
 .intro {
   padding: 0 25px 25px 25px;
+  word-break: keep-all;
 }
 
 .intro p {
@@ -197,6 +199,7 @@ svg {
   font-size: 14.5px;
   line-height: 26px;
   padding-left: 25px;
+  
 }
 
 .brood p {
@@ -271,14 +274,6 @@ padding-right: 15px;
 
 
 /* FOOTER */
-footer {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-  width: 100vw;
-  position: absolute;
-  
-}
 
 .list {
   height: fit-content;
@@ -307,13 +302,15 @@ p.list-item {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 25px 25px 25px;
+  gap: 7px;
+  
 }
 
 .next-project a, .prev-project a{
   font-family: 'TGL-0-17';
   color: rgb(255, 255, 255);
+  
 }
-
 
 .button-wrap {
   border-radius: 20px;
@@ -332,6 +329,17 @@ p.list-item {
 .button-wrap a:hover {
   color: rgb(255, 0, 208);
   transition-duration: 0.4s;
+}
+
+/**** uitzodnering- space ****/
+.nav-buttons-space {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 7px;
+  padding: 0 25px 25px 25px;
 }
 
 /* carrousel */
