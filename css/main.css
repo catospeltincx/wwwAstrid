@@ -267,11 +267,13 @@ svg {
 
 /* --------- past/upcoming-PAGEs ----------- */
 .places-wrap {
-  padding: 15px;
+  padding: 25px;
 }
 
+
+
 .places-item {
-padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .places-piece {
@@ -281,11 +283,14 @@ padding-bottom: 25px;
 }
 
 .places-date {
-  font-weight: bold;
+  font-family: "Standard";
+  padding:  0 5px 3px 20px;
+  font-style: italic;
 }
 
-.places-date, .places-place, .places-city, .places-country {
+.places-place, .places-city, .places-country {
 padding-right: 15px;
+font-family: "Standard"; 
 }
 
 
