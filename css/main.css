@@ -373,14 +373,21 @@ p.list-item {
 }
 
 /* DESKTOP */
-/* nog checken */
-@media screen and (min-height: 750px) {
-
-
-  .video-untitled {
-    width: auto;
-    height: 60vh;
+@media screen and (min-width: 580px){
+  header {
+    min-height: 125px;
   }
+
+  .caption p {
+    text-align: left;
+    padding: 10px 15px 15px 15px;
+  }
+
+  .caption-space {
+    text-align: left;
+    padding: 10px 15px 15px 15px;
+  }
+
 }
 
 @media screen and (min-width: 430px) {
@@ -415,6 +422,11 @@ p.list-item {
   .brood-group-max-1col, .brood-group-max-2col{
     justify-content: flex-start;
     max-width: 100vw;
+  }
+
+  .video-untitled {
+    width: auto;
+    height: 60vh;
   }
 
 }
