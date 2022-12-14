@@ -390,6 +390,8 @@ p.list-item {
   max-width: 1000px;
 }
 
+
+
 /* DESKTOP */
 @media screen and (min-width: 580px){
   header {
