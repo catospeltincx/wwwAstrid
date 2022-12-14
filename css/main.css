@@ -241,13 +241,28 @@ svg {
 
 /* ------------- CONTACT-PAGE ------------- */
 .text-contact {
-  padding: 25px;
+  padding: 0 25px 25px 25px;
+}
+
+.contact-title {
+  font-family: "Standard";
+
+  padding-top: 25px;
 }
 
 .contact-item {
   font-family: "Standard";
-  padding-left: 10px;
   line-height: 20px;
+  padding-left: 15px;
+}
+
+.contact-item {
+  color: rgb(255, 0, 0);
+  
+}
+
+.contact-item:hover {
+  font-style: italic;
 }
 
 /* --------- past/upcoming-PAGEs ----------- */
